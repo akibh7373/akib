@@ -1,0 +1,27 @@
+/* GOOGLE FONTS (Oswald) */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bgPrim: #F2F0E3 ;
+  --bgSec: #CDEBC4;
+  --ff: 'Oswald', sans-serif;
+  --elw: 300;
+  --rw: 400;
+  --sbw: 500;
+  --bw: 600;
+  --bw: 700;
+}
+.bgSec {
+  background-color: var(--bgSec);
+}
+body {
+  background-color: var(--bgPrim);
+  font-family: var(--ff);
+  font-weight: var(--rw);
+  font-size: 16px;
+  color: #000;
+}
