@@ -4,7 +4,7 @@ import { Data } from "../data/data";
 export default function Work() {
   return (
     <>
-      <Container className="w-[40%] mx-auto">
+      <Container className="w-[40%] mx-auto pb-5">
         <HeadingTitle className="mb-4 uppercase text-left">Featured work</HeadingTitle>
         <CardGroup className="grid grid-cols-2 gap-4">
           {
